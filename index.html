@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-container">
+                    <nav>
+                        <ul class="site-navigation">
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" class="site-navigation__link" href="#contact">Contact</a>
+                            </li>
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" class="site-navigation__link" href="#about">About</a>
+                            </li>
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" href="#skills">Skills</a>
+                            </li>
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" href="#projects">Projects</a>
+                            </li>
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" href="#code-examples">Code examples</a>
+                            </li>
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" href="#experience">Experience</a>
+                            </li>
+                            <li class="site-navigation__item">
+                                <a class="site-navigation__link link-underline" href="#languages">Languages</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div>
+            <div class="container">
+                <main>   
+                    <section class="presentation">
+                        <img class="presentation-avatar" src="assets/img/avatar.webp" alt="my_avatar">
+                        <h1 class="presentation-title">Hi, i am Lev Nalband</h1>
+                    </section>  
+                    <section class="information">    
+                        <article id="contact">
+                            <h2>Contact information:</h2>
+                            <div>
+                                <span>E-mail:</span>
+                                <a class="presentation-contact__link" href="mailto:lev.nalbandyan22@gmail.com">lev.nalbandyan22@gmail.com</a>
+                            </div>
+                            <div>
+                                <span>Phone:</span>
+                                <a class="presentation-contact__link" href="tel:+7-999-999-99-99">+7-999-999-99-99</a>
+                            </div>
+                            <div>
+                                <span>Telegram:</span>
+                                <span>@LevNl1</span>
+                            </div>
+                        </article>
+                        <article id="about">
+                            <h2>Briefly About Myself:</h2>
+                            <span>I'm interested in programming and want to learn frontend</span>
+                        </article>
+                        <article id="skills">
+                            <h2>Skills:</h2>
+                            <ul>
+                                <li>HTML5, CSS3 Basics</li>
+                                <li>JavaScript, Type script Basics</li>
+                                <li>React Basics</li>
+                                <li>NodeJs Basics</li>
+                                <li>Git</li>
+                                <li>C#, C, sql, visual basic script</li>
+                                <li>С++, GO Basics</li>
+                            </ul>
+                        </article>
+                        <article id="projects">
+                            <h2>Projects:</h2>
+                            <ol>
+                                <li><a class="link" href="https://github.com/ln1112/GetVersion/">Get apache server version utility</a> - console utility getting apache server version by ip and port</li>
+                            </ul>
+                        </article>
+                        <article id="code-examples">
+                            <h2>Code examples:</h2>
+                            <pre class="code-examples__pre">
+                                <code>
+function sum(a, b) {
+   return a - b + b + b - a + a;
+}
+let result = sum(3, 4);
+alert( result );                   
+                                </code>
+                            </pre>
+                        </article>
+                        <article id="experience">
+                            <h2>Experience:</h2>
+                            <span>
+                                Developed MES systems (C#, visual basic), backend (C#, Asp net core, postgress, clickhouse, mongo), desktop applications (C#, WPF, C++) and systems programming (windows and linux services - C#, C, C++)
+                            </span>
+                        </article>
+                        <article id="languages">
+                            <h2>Languages:</h2>
+                            <ul>
+                                <li><span>Russian</span>-<span>Native</span></li>
+                                <li><span>English</span>-<span>B1</span></li>
+                            </ul>
+                        </article>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <section class="footer-copyright">
+                        <span>© 2025 by Lev Nalband</span>
+                    </section>
+                    <section class="footer-contacts"> 
+                        <ul class="footer-contacts-links">
+                            <li class="contacts-links__item">
+                                <a class="contacts-links__link" href="https://github.com/ln1112">Github</a>
+                            </li>
+                            <li class="contacts-links__item">
+                                <a class="contacts-links__link" href="https://rs.school/courses/javascript-preschool-ru">
+                                    <img class="contacts-icon" src="assets/icons/rs-school-logo.svg" alt="rs-school-icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
