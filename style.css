@@ -123,3 +123,7 @@ img{
 .link-underline:hover:after{
     width: 100%;
 }
+
+.link{
+    color: inherit;
+}
