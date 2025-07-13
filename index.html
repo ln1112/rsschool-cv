@@ -15,10 +15,10 @@
                     <nav>
                         <ul class="site-navigation">
                             <li class="site-navigation__item">
-                                <a class="site-navigation__link link-underline" class="site-navigation__link" href="#contact">Contact</a>
+                                <a class="site-navigation__link link-underline" href="#contact">Contact</a>
                             </li>
                             <li class="site-navigation__item">
-                                <a class="site-navigation__link link-underline" class="site-navigation__link" href="#about">About</a>
+                                <a class="site-navigation__link link-underline" href="#about">About</a>
                             </li>
                             <li class="site-navigation__item">
                                 <a class="site-navigation__link link-underline" href="#skills">Skills</a>
@@ -50,9 +50,10 @@
                         <img class="presentation-avatar" src="assets/img/avatar.webp" alt="my_avatar">
                         <h1 class="presentation-title">Hi, i am Lev Nalband</h1>
                     </section>  
-                    <section class="information">    
+                    <section class="information">  
+                        <h2>About me:</h2>  
                         <article id="contact">
-                            <h2>Contact information:</h2>
+                            <h3>Contact information:</h2>
                             <div>
                                 <span>E-mail:</span>
                                 <a class="presentation-contact__link" href="mailto:lev.nalbandyan22@gmail.com">lev.nalbandyan22@gmail.com</a>
@@ -67,11 +68,11 @@
                             </div>
                         </article>
                         <article id="about">
-                            <h2>Briefly About Myself:</h2>
+                            <h3>Briefly About Myself:</h2>
                             <span>I'm interested in programming and want to learn frontend</span>
                         </article>
                         <article id="skills">
-                            <h2>Skills:</h2>
+                            <h3>Skills:</h2>
                             <ul>
                                 <li>HTML5, CSS3 Basics</li>
                                 <li>JavaScript, Type script Basics</li>
@@ -83,13 +84,13 @@
                             </ul>
                         </article>
                         <article id="projects">
-                            <h2>Projects:</h2>
+                            <h3>Projects:</h2>
                             <ol>
                                 <li><a class="link" href="https://github.com/ln1112/GetVersion/">Get apache server version utility</a> - console utility getting apache server version by ip and port</li>
-                            </ul>
+                            </ol>
                         </article>
                         <article id="code-examples">
-                            <h2>Code examples:</h2>
+                            <h3>Code examples:</h2>
                             <pre class="code-examples__pre">
                                 <code>
 function sum(a, b) {
@@ -101,13 +102,13 @@ alert( result );
                             </pre>
                         </article>
                         <article id="experience">
-                            <h2>Experience:</h2>
+                            <h3>Experience:</h2>
                             <span>
                                 Developed MES systems (C#, visual basic), backend (C#, Asp net core, postgress, clickhouse, mongo), desktop applications (C#, WPF, C++) and systems programming (windows and linux services - C#, C, C++)
                             </span>
                         </article>
                         <article id="education">
-                            <h2>Education:</h2>
+                            <h3>Education:</h2>
                             <div>
                                 <span>
                                     Bauman Moscow State Technical University, Engineer, 2016
@@ -115,7 +116,7 @@ alert( result );
                             </div>
                         </article>
                         <article id="languages">
-                            <h2>Languages:</h2>
+                            <h3>Languages:</h2>
                             <ul>
                                 <li><span>Russian</span>-<span>Native</span></li>
                                 <li><span>English</span>-<span>B1</span></li>
@@ -129,10 +130,10 @@ alert( result );
         <footer class="footer">
             <div class="container">
                 <div class="footer-container">
-                    <section class="footer-copyright">
+                    <div class="footer-copyright">
                         <span>© 2025 by Lev Nalband</span>
-                    </section>
-                    <section class="footer-contacts"> 
+                    </div>
+                    <div class="footer-contacts"> 
                         <ul class="footer-contacts-links">
                             <li class="contacts-links__item">
                                 <a class="contacts-links__link" href="https://github.com/ln1112">Github</a>
@@ -143,7 +144,7 @@ alert( result );
                                 </a>
                             </li>
                         </ul>
-                    </section>
+                    </div>
                 </div>
             </div>
         </footer>
